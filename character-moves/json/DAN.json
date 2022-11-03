@@ -1,0 +1,230 @@
+{
+    "name": "DAN",
+    "moveList": [
+        {
+            "name": "Saikyo Taikuzushi",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Saikyo Haraigoshi",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Haoh Gadoken",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Tenchi Saikyo No Kata",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Saikyo-Style Burairuten no Kamae I",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Saikyo-Style Burairuten no Kamae II",
+            "type": "V-SkillⅠ",
+            "input": [
+                "b",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Saikyo-Style Burairuten no Kamae III",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(DURING JUMP)",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Saikyo-Style Otokoboe I",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Saikyo-Style Otokoboe II",
+            "type": "V-SkillⅡ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Saikyo-Style Kaihi Jutsu",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Saikyo Donukigeri",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Saikyo Chop",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Saikyo Jawbreaker",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Gadoken",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Koryuken",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Dankukyaku",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Danretsuken",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Haten Gadoken",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "d",
+                "df",
+                "->",
+                "f",
+                "+",
+                "punch",
+                "(INPUT SIMULATANEOUSLY)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Goh Koryuken",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "f",
+                "d",
+                "->",
+                "df",
+                "+",
+                "punch",
+                "(INPUT SIMULATANEOUSLY)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Hisshou Buraiken",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "name": "URIEN",
+    "moveList": [
+        {
+            "name": "Spartan Bomb",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Aegis Reflector",
+            "type": "V-Trigger I",
+            "input": [
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Tyrant Pressure",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Metallic Aura",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Indignant Thunder",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Anger Snap Fist",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Tyrant Kick",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Quarrel Punch",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Quarrel Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Terrible Smash",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Killer Straight",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Break Rush",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP",
+                "->",
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Chariot Tackle",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE AFTER V-SKILL I)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Violence Knee Drop",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE AFTER V-SKILL I)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Dangerous Headbutt",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE AFTER V-SKILL I)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Metallic Sphere",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Aegis Reflector",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tyrant Blaze",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(PROPERTIES CHANGE AFTER V-SKILL I)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Dominant Crush",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

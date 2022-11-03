@@ -1,0 +1,305 @@
+{
+    "name": "G",
+    "moveList": [
+        {
+            "name": "Violence President",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shining President",
+            "type": "Normal Throws",
+            "input": [
+                "(WHILE OPPONENT IS CROUCHING)",
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Destroy President",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Maximum President",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Dangerous President",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "G Barrier",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)",
+                "(G CHARGE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Airborne G Barrier",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "G Protection",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "OR",
+                "(DURING A G CHARGE-SUPPORTED ATTACK)",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "G Revenge",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "G Elimination",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Wild President",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "(G CHARGE-SUPPORTED ATTACK)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Strong President",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HP",
+                "(G CHARGE-SUPPORTED ATTACK)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Crash President",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flying President",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "d",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Message To The People",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "d",
+                "+",
+                "kick",
+                "kick",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "OR",
+                "(DURING A G CHARGE-SUPPORTED ATTACK)",
+                "kick",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "G Smash Over",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)",
+                "(G CHARGE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "G Smash Under",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)",
+                "(G CHARGE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "G Burst",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)",
+                "(G CHARGE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "G Spin Kick",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)",
+                "(G CHARGE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "G Impact",
+            "type": "Special Moves",
+            "input": [
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "G Charge",
+            "type": "Special Moves",
+            "input": [
+                "d",
+                "d",
+                "+",
+                "punch",
+                "punch",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "G Charge (Cancel)",
+            "type": "Special Moves",
+            "input": [
+                "(DURING A G CHARGE-SUPPORTED ATTACK)",
+                "punch",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "G Explosion",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "(G CHARGE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "G Rage",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(NEAR OPPONENT)",
+                "d",
+                "+",
+                "HP",
+                "HK",
+                "(G CHARGE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Pangaea Burst",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

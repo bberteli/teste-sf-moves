@@ -1,0 +1,665 @@
+{
+    "name": "ZEKU",
+    "moveList": [
+        {
+            "name": "Tsurigane Otoshi",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Mikoshi",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tesso",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Raiju",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushinryu Shingekiko",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Bushinryu Shingekiko",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Karura Tenzan",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK",
+                "(CHANGE PROPERTIES WITH THE DIRECTIONAL BUTTONS ON HIT)"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Karura Tenzan",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK",
+                "(CHANGE PROPERTIES WITH THE DIRECTIONAL BUTTONS ON HIT)"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Fukuro",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(CHANGE PROPERTIES WITH THE DIRECTIONAL BUTTONS ON HIT)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Tenpo Kari",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(CHANGE PROPERTIES WITH THE DIRECTIONAL BUTTONS ON HIT)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kuchiyose - Shii",
+            "type": "V-SkillⅡ",
+            "input": [
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "f",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kuchiyose - Bii",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Toushi",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Toushi",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Bushin Murakumo",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Habakiri",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Nouten Wari",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kubi Kudaki",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kaeshi Saiha",
+            "type": "Unique Attacks",
+            "input": [
+                "HP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kaeshi Urasaiha",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "HP",
+                "->",
+                "d",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kaeshi Hayabusa",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kagerou",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "HP",
+                "->",
+                "HP",
+                "->",
+                "MP",
+                "MK",
+                "(CHANGE PROPERTIES WITH THE DIRECTIONAL BUTTONS ON HIT)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Urakagerou",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "d",
+                "+",
+                "HP",
+                "->",
+                "d",
+                "+",
+                "HP",
+                "->",
+                "MP",
+                "MK",
+                "(CHANGE PROPERTIES WITH THE DIRECTIONAL BUTTONS ON HIT)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sekibu No Jin",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "HP",
+                "->",
+                "HP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hakuso No Jin",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "d",
+                "+",
+                "HP",
+                "->",
+                "d",
+                "+",
+                "HP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushin Soukosou",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushin Gokusanken - Ni",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushin Gokusanken - San",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushin Gokusanken - Shu",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP",
+                "->",
+                "HP",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushin Gokusanage",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP",
+                "->",
+                "HP",
+                "->",
+                "d",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sankaku Tobi",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP NEAR WALL)",
+                "f"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hassou Tobi",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING WALL JUMP, NEAR THE WALL)",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushin Shidenkyaku",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING WALL JUMP, NEAR THE WALL)",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushin Gram - Koku",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Bushin Gram - Ban",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Bushin Gram - Teki",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Bushin Jakura",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Bushin Gekirinchu",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushin Kirinkyaku",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bushin Tengen",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "(NEAR OPPONENT)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shukumyo",
+            "type": "Special Moves",
+            "input": [
+                "d",
+                "d",
+                "+",
+                "punch",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Idaten",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Bushin Bakujasho",
+            "type": "Special Moves",
+            "input": [
+                "(DURING IDATEN, OR DURING AN IDATEN ATTACK)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Karura Tenzan",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "(CHANGE PROPERTIES WITH THE DIRECTIONAL BUTTONS ON HIT)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Bushin Sho",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Hozanto",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Bushin Sangoku Otoshi",
+            "type": "Special Moves",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "(CLOSE TO OPPONENT IN AIR)",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Hayagake",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Tozetsu",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "->",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Ashikari",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "->",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Gekkou",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shukumyo",
+            "type": "Special Moves",
+            "input": [
+                "d",
+                "d",
+                "+",
+                "punch",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Idaten",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Bushin Seiryukyaku",
+            "type": "Special Moves",
+            "input": [
+                "(DURING IDATEN, OR DURING AN IDATEN ATTACK)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Karura Tenzan",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "(CHANGE PROPERTIES WITH THE DIRECTIONAL BUTTONS ON HIT)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Batsuzan Gaisei",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Batsuzan Gaisei",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        }
+    ]
+}

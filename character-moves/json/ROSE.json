@@ -1,0 +1,258 @@
+{
+    "name": "ROSE",
+    "moveList": [
+        {
+            "name": "Soul Fall",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Drain",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Dimension",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Soul Illusion",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Soul Fortune",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Fortune Shuffle",
+            "type": "V-SkillⅠ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Satellite",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Reflect",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Soul Veloce",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Soul Presa",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Slide",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Piede",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Pilastro",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Levare",
+            "type": "Unique Attacks",
+            "input": [
+                "LK",
+                "->",
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Spark",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Soul Spark (Airborne)",
+            "type": "Special Moves",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Soul Punish",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Soul Bind",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Soul Spiral",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Soul Terra",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Soul Mare",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "b",
+                "+",
+                "HP",
+                "HK",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Soul Cielo",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "d",
+                "+",
+                "HP",
+                "HK",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Fate Aura Spark",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        }
+    ]
+}

@@ -1,0 +1,284 @@
+{
+    "name": "CHUN-LI",
+    "moveList": [
+        {
+            "name": "Koshuto",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tenshin Shushu",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Ryuseiraku",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Renkiko",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Kikosho",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Rankyaku",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Souseikyaku",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hazansyu",
+            "type": "V-SkillⅡ",
+            "input": [
+                "n",
+                "OR",
+                "b",
+                "+",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Sohakkei",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Ensenbu",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Tsuitotsuken",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "OR",
+                "f",
+                "+",
+                "MP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hakkei",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Senenshu",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tenkukyaku",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Yokusenkyaku",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Kakurakukyaku",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Yosokyaku",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "d",
+                "+",
+                "MK",
+                "(INPUT POSSIBLE UP TO 3 TIMES)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Wall Jump",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP NEAR WALL)",
+                "f"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kikoken",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hyakuretsukyaku",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "OR",
+                "kick",
+                "(REPEAT BUTTON)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Airborne Hyakuretsukyaku",
+            "type": "Special Moves",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "qcf",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Spinning Bird Kick",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Kikosho",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Hoyokusen",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        }
+    ]
+}

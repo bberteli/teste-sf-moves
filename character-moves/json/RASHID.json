@@ -1,0 +1,289 @@
+{
+    "name": "RASHID",
+    "moveList": [
+        {
+            "name": "Riding Glider",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rising Sun",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Ysaar",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Easifa",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Front Flip",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Airborne Eagle Spike",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Rolling Assault",
+            "type": "V-SkillⅠ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Nail Assault",
+            "type": "V-SkillⅠ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Wing Stroke",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Wing Spike",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Airborne Wing Stroke",
+            "type": "V-SkillⅡ",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Airborne Wing Spike",
+            "type": "V-SkillⅡ",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "MP",
+                "MK",
+                "->",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Sliding Roll",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Eagle Slash",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Flap Spin",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Beak Assault",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Wall Jump",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP NEAR WALL)",
+                "f",
+                "OR",
+                "df"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Spinning Mixer",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE WITH REPEATED BUTTON PRESSES)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Dash Spinning Mixer",
+            "type": "Special Moves",
+            "input": [
+                "(DURING DASH)",
+                "f",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE WITH REPEATED BUTTON PRESSES)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Eagle Spike",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Dash Eagle Spike",
+            "type": "Special Moves",
+            "input": [
+                "(DURING DASH)",
+                "f",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Airborne Eagle Spike",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Whirlwind Shot",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Haboob",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Altair",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

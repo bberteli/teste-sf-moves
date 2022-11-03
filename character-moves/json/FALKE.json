@@ -1,0 +1,322 @@
+{
+    "name": "FALKE",
+    "moveList": [
+        {
+            "name": "Wirbel Wind",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Luftstrom",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Windstoss",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Staerken",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Psycho Angriff",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Psycho Trombe",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Psycho Mine",
+            "type": "V-SkillⅡ",
+            "input": [
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "d",
+                "OR",
+                "db",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Impulse",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Psycho Aufstand",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Psycho Spitze",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Blaukraehe",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Luftjagd",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "d",
+                "+",
+                "MK",
+                "(CHANGE PROPERTIES WITH THE DIRECTIONAL BUTTONS ON HIT OR GUARD)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Zweitrit",
+            "type": "Unique Attacks",
+            "input": [
+                "MK",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Seele",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "MK",
+                "->",
+                "HK",
+                "->",
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "d",
+                "OR",
+                "db",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Kugel",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "(HOLD AND RELEASE)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "EX Psycho Kugel",
+            "type": "Special Moves",
+            "input": [
+                "(AFTER Psycho Kugel OR Psycho Kanonen)",
+                "punch",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Psycho Kanonen",
+            "type": "Special Moves",
+            "input": [
+                "d",
+                "+",
+                "punch",
+                "(HOLD AND RELEASE)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "EX Psycho Kanonen",
+            "type": "Special Moves",
+            "input": [
+                "(AFTER Psycho Kugel OR Psycho Kanonen)",
+                "d",
+                "+",
+                "punch",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Psycho Feder",
+            "type": "Special Moves",
+            "input": [
+                "(DURING JUMP)",
+                "punch",
+                "(HOLD AND RELEASE)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "EX Psycho Feder",
+            "type": "Special Moves",
+            "input": [
+                "(AFTER Psycho Feder)",
+                "punch",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Psycho Schneide",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Katapult",
+            "type": "Special Moves",
+            "input": [
+                "kick",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Psycho Schrot",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Psycho Panzer",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Psycho Jaeger",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(DURING JUMP)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Psycho Sturm",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Psycho Klinge",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Psycho Fluegel",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

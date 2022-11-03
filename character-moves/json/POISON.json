@@ -1,0 +1,222 @@
+{
+    "name": "POISON",
+    "moveList": [
+        {
+            "name": "Slap Shot",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Frankensteiner",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Poison Cocktail",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Toxic Glamor",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Perfume Swing",
+            "type": "V-SkillⅠ",
+            "input": [
+                "n",
+                "OR",
+                "b",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Cartwheel",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Power Cord",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Danger Zone",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Whiplash",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Slap & Smash",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Slap & Slash",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "MP",
+                "->",
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Avant Line",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Heart Raid",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch",
+                "(HOLD TO DELAY)",
+                "(WHILE HOLDING BUTTON, PRESS KICK BUTTON TO CANCEL.)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Shocking Heel",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Love Me Tender",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Fire Squall",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "n",
+                "OR",
+                "b",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Toxic Hold",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Toxic Bind",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "f",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Love Hurricane",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

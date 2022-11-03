@@ -1,0 +1,296 @@
+{
+    "name": "BIRDIE",
+    "moveList": [
+        {
+            "name": "Bad Skull",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bad Chain",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Enjoy Time",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Birdie Time",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Break Time",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Banana Time",
+            "type": "V-SkillⅠ",
+            "input": [
+                "b",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Drink Time",
+            "type": "V-SkillⅠ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Chewing Time",
+            "type": "V-SkillⅡ",
+            "input": [
+                "n",
+                "OR",
+                "d",
+                "+",
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Bubble Gum",
+            "type": "V-SkillⅡ",
+            "input": [
+                "n",
+                "OR",
+                "d",
+                "+",
+                "MP",
+                "MK",
+                "(AFTER HOLDING THE BUTTON)",
+                "->",
+                "n",
+                "OR",
+                "d",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Blow Bubble",
+            "type": "V-SkillⅡ",
+            "input": [
+                "n",
+                "OR",
+                "d",
+                "+",
+                "MP",
+                "MK",
+                "(AFTER HOLDING THE BUTTON)",
+                "->",
+                "n",
+                "OR",
+                "d",
+                "+",
+                "kick",
+                "(UP TO 2 TIMES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Pepper Pot",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Bull Crush",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Bull Drop",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bull Charge",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bull Slider",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bad Hammer",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "HP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bull Head",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Bull Horn",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "OR",
+                "kick",
+                "(HOLD AND RELEASE)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hanging Chain",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "(HOLD TO DELAY)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)",
+                "(CANCEL: PRESS PUNCH BUTTON DURING CHAIN WHIRL)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Killing Head",
+            "type": "Special Moves",
+            "input": [
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Bull Revenger",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Bull Swing",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Bull Capture",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Skip To My Chain",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

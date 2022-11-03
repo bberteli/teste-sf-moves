@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 126 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="Directionals" transform="matrix(0.965774,0,0,0.929204,-8.38993,-6.2784)">
+        <rect x="8.687" y="6.757" width="129.73" height="130.888" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="8.687" y="6.757" width="129.73" height="130.888"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(-6.49927e-16,1.57598,-1.5163,-6.75506e-16,408.642,-281.701)">
+                <g id="Directionals1" serif:id="Directionals">
+                    <g id="down">
+                        <g transform="matrix(2.01118,0,0,2.01118,-932.309,-22.5868)">
+                            <circle cx="575" cy="121" r="15.374" style="fill:rgb(215,21,24);"/>
+                        </g>
+                        <g transform="matrix(-4.25986e-16,2.31896,-2.51857,-4.62653e-16,556.979,-1155.87)">
+                            <path d="M591.86,122.688C591.858,122.825 591.858,132.706 591.858,132.706L595.487,132.659C595.487,132.659 595.492,122.81 595.494,122.688L597.928,122.688L593.678,116.312L589.428,122.688L591.86,122.688Z" style="fill:white;stroke:black;stroke-width:0.53px;"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

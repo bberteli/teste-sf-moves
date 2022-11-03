@@ -1,0 +1,207 @@
+{
+    "name": "JURI",
+    "moveList": [
+        {
+            "name": "Chisenkyaku",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kaeikyaku",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Zankasen",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Feng Shui Engine Alpha",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Feng Shui Engine beta",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Kasatushu",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(WHEN HOLDING THE BUTTON, PERFORM A STEP TO CANCEL)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kasatsushu (Stop)",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD TO DELAY)",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Fuha Enzan",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(PERFORM MOVE AGAIN TO TRIGGER)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kaisenrenkyaku",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Kuboshu",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Korenzan",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Senkaikyaku",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kyoretsushu",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "b",
+                "OR",
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Enkushu",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "MP",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Fuharenkyaku",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "(INPUT AGAIN AFTER KICK TO RELEASE)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tensenrin",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Ryodansatsu",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Sakkai Fuhazan",
+            "type": "Critical Art",
+            "input": [
+                "img-214",
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        }
+    ]
+}

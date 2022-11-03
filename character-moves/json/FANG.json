@@ -1,0 +1,186 @@
+{
+    "name": "F.A.N.G",
+    "moveList": [
+        {
+            "name": "Shimonshu",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kyoshitsugeki",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Dokunomu",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Koryo Dokuda",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Nishodoku",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Sodokubu",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Nikaiho",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Ryosenbu",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Senpukuga",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "LP",
+                "MP",
+                "HP",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Nirenko",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Nishikyu",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Sotoja",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Ryobenda",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Nikankyaku",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Nikyoushu",
+            "type": "Special Moves",
+            "input": [
+                "(DURING JUMP)",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shishiruirui",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

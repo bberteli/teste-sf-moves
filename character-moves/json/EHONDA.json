@@ -1,0 +1,248 @@
+{
+    "name": "E. HONDA",
+    "moveList": [
+        {
+            "name": "Saba-Ori",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tawara Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Onigawara",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Tajikarao",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Neko Damashi",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sumo Spirit",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Raiden-Ho",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Super Sumo Impact",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Harai-Geri",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Chikara-Ashi",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flying Sumo Press",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "d",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tokoshizume",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "df",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tsurane Harite",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hirate",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "LP",
+                "->",
+                "MP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hundred Hand Slap",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "(REPEAT BUTTON)",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Sumo Headbutt",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Sumo Smash",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Oicho Throw",
+            "type": "Special Moves",
+            "input": [
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Oni-Daikaku",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Oni-Muso",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK",
+                "->",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Iwato Biraki",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Kamigashima",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

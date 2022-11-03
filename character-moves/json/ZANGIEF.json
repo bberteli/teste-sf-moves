@@ -1,0 +1,248 @@
+{
+    "name": "ZANGIEF",
+    "moveList": [
+        {
+            "name": "Atomic Drop",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Horosho Chokeslam",
+            "type": "Normal Throws",
+            "input": [
+                "(WHILE OPPONENT IS CROUCHING)",
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Captured",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Cyclone Lariat",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Cossacck Muscle",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Iron Muscle",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)",
+                "(WHEN HOLDING THE BUTTON, PERFORM A BACK DASH TO CANCEL)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Muscle Walk",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS)",
+                "->",
+                "f",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Super Russian Kick",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(WHEN HOLDING THE BUTTON, PERFORM A STEP TO CANCEL)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Muscle Explosion",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Colossal Boot",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Head Butt",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Knee Hammer",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flying Body Press",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "d",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flying Head Butt",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING VERTICAL JUMP)",
+                "u",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Screw Pile Driver",
+            "type": "Special Moves",
+            "input": [
+                "(NEAR OPPONENT)",
+                "360",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Double Lariat",
+            "type": "Special Moves",
+            "input": [
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Siberian Express",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Borscht Dynamite",
+            "type": "Special Moves",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "(CLOSE TO OPPONENT IN AIR)",
+                "360",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Tundra Storm",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Cyclone Lariat",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Bolshoi Russian Suplex",
+            "type": "Critical Art",
+            "input": [
+                "(NEAR OPPONENT)",
+                "360",
+                "360",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

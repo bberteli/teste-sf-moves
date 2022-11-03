@@ -1,0 +1,213 @@
+{
+    "name": "MENAT",
+    "moveList": [
+        {
+            "name": "Overflowing Nile",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Pyramid Hopscotch",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Wisdom Of Thoth",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Prophecy Of Thoth",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Soul Reflect: Kamal",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Reflect: Stella",
+            "type": "V-SkillⅠ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Spiral",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Left Eye Of The Lion",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Sistrum Of Fortune",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Judgement Of Anubis",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Divine Retribution",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Khamun Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "d",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Sphere",
+            "type": "Special Moves",
+            "input": [
+                "(WITH THE CRYSTAL BALL)",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Soul Sphere: Ankh",
+            "type": "Special Moves",
+            "input": [
+                "(AFTER SOUL SPHERE)",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Guardian Of The Sun",
+            "type": "Special Moves",
+            "input": [
+                "(WITH THE CRYSTAL BALL)",
+                "dp",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Soul Spark",
+            "type": "Special Moves",
+            "input": [
+                "(AFTER SOUL SPHERE)",
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Judgement Of Thoth",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(DURING PROPHECY OF THOTH)",
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Prophecy Of Thoth",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(JUDGEMENT OF THOTH)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "The Nefertem",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

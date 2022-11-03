@@ -1,0 +1,327 @@
+{
+    "name": "GILL",
+    "moveList": [
+        {
+            "name": "Impact Claw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Guilty Bomb",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Primal Fire",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Ice Of Doom",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Meteor Strike",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(WHEN SELECTING V-TRIGGER I)",
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "f",
+                "+",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hail Sting",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(WHEN SELECTING V-TRIGGER II)",
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "f",
+                "+",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Blocking",
+            "type": "V-SkillⅡ",
+            "input": [
+                "n",
+                "OR",
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Pryo Reverse Kick",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Radiant Judgment",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Cryo Drop Elbow",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Pyro Quarrel Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Cryo Rise Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HK",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Guilty Straight",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Penalty Break",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "LK",
+                "->",
+                "d",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Pyrokinesis",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Cryokinesis",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Pyro Cyber Lariat",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Cryo Cyber Lariat",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Moonsault Knee Drop",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Burn Storm",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Flame Javelin",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "d",
+                "OR",
+                "db",
+                "OR",
+                "df",
+                "+",
+                "HP",
+                "HK",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Volcanic Storm",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK",
+                "->",
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "f",
+                "+",
+                "HP",
+                "HK",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tree Of Frost",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Delay Freeze Lance",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "d",
+                "OR",
+                "db",
+                "OR",
+                "df",
+                "+",
+                "HP",
+                "HK",
+                "(ANTI-TYPE-SUPPORTED ATTACK)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Seraphic Wing",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

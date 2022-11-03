@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SFV Moves</title>
+        <meta name="viewport" content="
+            width=device-width,
+            initial-scale=1.0,
+            maximum-scale=1.0" />
+        <link rel="stylesheet" href="css/reset.css">
+        <style>
+
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+            :root {
+                font-size: 16px;
+            }
+            
+            body {
+                background-color: black;
+                margin: 0;
+            }
+
+            .header {
+                margin: 0.9rem 0.75rem 0.75rem 0.9rem;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                font-size: 1.1rem;
+                color: white;
+                text-align: center;
+                display: flex;
+                justify-content: flex-end;
+            }            
+            
+            a.back {
+                padding: 0 0.3rem 0 0.3rem;
+                flex: 0 0 3.12rem;
+                align-self: flex-start;
+                font-size: inherit;
+                color: inherit;
+                font-weight: inherit;
+                display: inline;
+                cursor: pointer;
+                
+            }
+
+            a:hover,
+            a.back:hover {
+                color: rgb(120,120,120);
+            }
+
+            p.title {
+                flex: 1;
+                align-self: flex-end;
+                padding-right: 55px;
+            }
+            
+            #char-box {
+                height: 10rem;
+                background: linear-gradient(0deg, rgba(0,0,0,1) 00%,
+                rgba(41,41,41,1) 130%);
+                border-radius: 0.38rem;
+                margin-left: 0.75rem;
+                margin-right: 0.75rem;
+                min-width: 21.25rem ;
+            }
+
+            #title-card {
+                height: 10rem;
+                background-size: contain;
+                background-repeat: no-repeat;
+                border-radius: 0.38rem;
+                background-image: url('img/characters/large/mnt.png');
+                margin: 0;
+            }
+
+            #title-card .char-spacing {
+                width: 7.8rem
+            }
+
+            #title-card .char-text-spacing {
+                width: 12.5rem
+            }
+
+            p.character-text, p.modes {
+                font-family: 'Lato', sans-serif;
+                font-style: italic;
+                font-size: 2.4rem;
+                color: white;
+                text-align: center;
+                margin: 0;
+                padding: 4rem 0 0 0;
+            }
+
+            p.character-text {
+                font-weight: 700;
+            }
+
+            p.modes {
+                font-size: 1rem;
+                padding: 0;
+            }
+
+            div.table-container {
+                margin-left: 0.75rem;                
+                margin-right: 0.75rem;
+            }
+
+            table.moves {
+                font-family: 'Lato', sans-serif;
+                text-align: left;
+                color: white;
+                font-size: 1rem;
+                margin-top: 1.25rem;   
+                width: 100%;
+            }
+
+            table.moves > tbody > tr th {
+                padding: 0.6rem 0 0.6rem 0.6rem;
+                background-color: rgb(39, 39, 39);
+                font-weight: 700;
+            }
+
+            table.moves > tbody > tr td {
+                padding: 0.6rem 0px 0.6rem 0.6rem;
+                vertical-align: middle;
+            }
+
+            table.moves > tbody > tr > td > span p {
+                display: block;
+                line-height: 1.3rem;
+            }
+
+            
+            .move-icon {
+                height: 1.9rem;
+                vertical-align: middle;
+            }
+
+            .movetype-icon {
+                height: 1.3rem;
+                vertical-align: middle;
+            }
+
+            span.move-text {
+                display: inline;
+                line-height: 1.55rem;
+            }
+
+            span.move-name {
+                line-height: 2.2rem;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <a class="back" type="button">
+                Back
+            </a>
+            <p class="title">
+               SFV Move List 
+            </p>
+        </div>
+        <div id="char-box">
+            <div id="title-card">
+                <table>
+                    <tr>
+                        <td class="char-spacing">
+                        </td>
+                        <td class="char-text-spacing">
+                            <p class="character-text">MENAT</p>
+                            <p class="modes">Movelist | Combos</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="table-container">
+            <table class="moves">
+                <tbody>
+                    <tr>
+                        <th colspan="2"><p>Special Moves</p></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="move-name">
+                                <p>Soul Sphere</p>
+                                <img class="movetype-icon" src="svg/icons/ex.svg">
+                            </span>
+                        </td>
+                        <td>
+                            <span class="move-text">
+                                <p>(WITH THE CRYSTAL BALL)</p>
+                                <img class="move-icon" src="svg/icons/qcf.svg">
+                                +
+                                <img class="move-icon" src="svg/icons/punch.svg">
+                            </span> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="move-name">
+                                <p>Soul Sphere(Ahnk)</p>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="move-text">
+                                <p>(AFTER SOUL SPHERE)<p></span>
+                                <img class="move-icon" src="svg/icons/qcf.svg">
+                                +
+                                <img class="move-icon" src="svg/icons/punch.svg">
+                            </span> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><p>Unique Attacks</p></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="move-name">
+                                <p>Judgement of Anubis</p>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="move-text">
+                                <img class="move-icon" src="svg/icons/down.svg">
+                                +
+                                <img class="move-icon" src="svg/icons/mk.svg">
+                            </span> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="move-name">
+                                <p>Divine Retribution</p>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="move-text">
+                                <img class="move-icon" src="svg/icons/right.svg">
+                                +
+                                <img class="move-icon" src="svg/icons/mk.svg">
+                            </span> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="move-name">
+                                <p>Khamun Kick</p>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="move-text">
+                                <span>
+                                    <p>(DURING JUMP)</p>
+                                </span>
+                                <img class="move-icon" src="svg/icons/right.svg">
+                                +
+                                <img class="move-icon" src="svg/icons/mk.svg">
+                            </span> 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

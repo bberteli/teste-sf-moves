@@ -1,0 +1,239 @@
+{
+    "name": "RYU",
+    "moveList": [
+        {
+            "name": "Shoulder Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Somersault Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Denjin Renki",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Kakko Fubatsu",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Mind's Eye",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Thust Strike",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hashogeki",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Fumikomi Jodan Kagizuki",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Collarbone Breaker",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Solar Plexus Strike",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Axe Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Jodan Nirengeki",
+            "type": "Unique Attacks",
+            "input": [
+                "HP",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Jodan Sanrengeki",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "HP",
+                "OR",
+                "d",
+                "+",
+                "HP",
+                "->",
+                "HK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hadoken",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Shoryuken",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tatsumaki Senpukyaku",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Airborne Tatsumaki Senpukyaku",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Jodan Sokutou Geri",
+            "type": "Special Moves",
+            "input": [
+                "img-41236",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Isshin",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Shinku Hadoken",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Denjin Hadoken",
+            "type": "Critical Art",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>SFV Moves</title>
+
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+        <meta name="viewport" content="
+            width=device-width,
+            initial-scale=1.0,
+            maximum-scale=1.0" />
+
+        <style>
+
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+            #searchtext {
+                margin: 0;
+            }
+
+            body {
+                background-color: black;
+                margin: 0;
+            }
+
+            ul {
+                margin: 0 0.75rem 0.38rem 0.75rem;
+                padding: 0;
+                list-style-type: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: start;
+                gap: 0.5rem 0.5rem;
+            }
+
+            li {
+                display: flex;
+                float: inline-start;
+                height: 5rem;
+                border-color: blueviolet;
+                flex: 1;
+                min-width: 11.25rem;
+                background: linear-gradient(0deg, rgba(0,0,0,1) 00%,
+                rgba(41,41,41,1) 130%);
+                border-radius: 0.38rem;
+            }
+
+            .blank {
+                background: rgb(0,0,0);
+            }
+
+            .char-button {
+                padding-right: 0.75rem;
+                padding-top: 3.12rem;
+                background-size: contain;
+                background-repeat: no-repeat;
+                font-family: 'Lato', sans-serif;
+                font-style: italic;
+                font-weight: 700;
+                font-size: 1.4rem;
+                color: white;
+                text-align: right;
+                border-radius: 0.38rem;
+            }
+
+            @media (min-width: 392px) {
+                li {
+                    max-width: 274px;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <p class="title">STREET FIGHTER V</p>
+        </div>
+        <div class="search">
+                <p id="searchtext">Search</p>
+        </div>
+        <ul>
+            <li>
+                <div class="char-button" style="background-image:
+                    url('/img/characters/small/abg.png');
+                    flex: 1;">ABIGAIL
+                </div>
+            </li>
+            <li><div class="char-button" style="background-image:
+                    url('/img/characters/small/akr.png');
+                    flex: 1;">AKIRA
+                </div></li>
+            <li><div class="char-button" style="background-image:
+                    url('/img/characters/small/alx.png');
+                    flex: 1;">ALEX
+                </div></li>
+            <li><div class="char-button" style="background-image:
+                    url('/img/characters/small/blk.png');
+                    flex: 1;">BLANKA
+                </div></li>
+            <li><div class="char-button" style="background-image:
+                    url('/img/characters/small/brd.png');
+                    flex: 1;">BIRDIE
+                </div></li>
+            <li><div class="char-button" style="background-image:
+                    url('/img/characters/small/blr.png');
+                    flex: 1;">BALROG
+                </div></li>
+            <li><div class="char-button" style="background-image:
+                    url('/img/characters/small/mnt.png');
+                    flex: 1;">MENAT
+                </div></li>
+            <li class="blank"></li>
+            <li class="blank"></li>
+        </ul>
+    </body>
+</html>

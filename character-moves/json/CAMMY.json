@@ -1,0 +1,301 @@
+{
+    "name": "CAMMY",
+    "moveList": [
+        {
+            "name": "Gyro Clipper",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Delta Through",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Neck Spiral",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Delta Drive",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Delta Ambush",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Delta Step",
+            "type": "V-Trigger II",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Axel Spin Knuckle",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Spinning Attack",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Strike Back",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Counter Spike",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Knee Bullet",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Lift Upper",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Lift Combination",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MP",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Spiral Arrow",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Cannon Spike",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Cannon Strike",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hooligan Combination",
+            "type": "Special Moves",
+            "input": [
+                "img-41236",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Lazer Edge Slicer",
+            "type": "Special Moves",
+            "input": [
+                "img-41236",
+                "+",
+                "punch",
+                "->",
+                "(NO INPUT)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Fatal Leg Twister",
+            "type": "Special Moves",
+            "input": [
+                "img-41236",
+                "+",
+                "punch",
+                "->",
+                "(CLOSE TO GROUND)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Cross Scissors Pressure",
+            "type": "Special Moves",
+            "input": [
+                "img-41236",
+                "+",
+                "punch",
+                "->",
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Cannon Strike",
+            "type": "Special Moves",
+            "input": [
+                "img-41236",
+                "+",
+                "punch",
+                "->",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Delta Ambush",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Delta Twist",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "->",
+                "(NEAR OPPONENT)",
+                "punch"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Reverse Edge",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "->",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Delta Step",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "f",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Cross Stinger Assault",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        }
+    ]
+}

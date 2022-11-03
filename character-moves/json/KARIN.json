@@ -1,0 +1,351 @@
+{
+    "name": "KARIN",
+    "moveList": [
+        {
+            "name": "Hajotsui",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Arakuma Inashi",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kanzuki-Ryu Guren No Kata",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Tenha No Kata",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Meioken",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Fudo Sosho",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Ressencho",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Koka Tenshinchu: Sumeragi",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Tsumujigari",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Ku-Renge",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kanzuki-Ryu Hokojutsu Seppo",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Tenko",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Orochi",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "->",
+                "d",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Mujinkyaku",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Ressenha",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Senha Kusabi",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch",
+                "->",
+                "d",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Senha Resshu",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch",
+                "->",
+                "(NEAR OPPONENT)",
+                "u",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Guren Ken",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Guren Hosho",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Guren Senha",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "u",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Guren Chochu",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "d",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Guren Hochu",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "d",
+                "+",
+                "punch",
+                "->",
+                "d",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Guren Resshu",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "(",
+                "d",
+                "+",
+                "punch",
+                ")",
+                "->",
+                "(NEAR OPPONENT)",
+                "u",
+                "+",
+                "kick"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Guren Kusabi",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "(",
+                "d",
+                "+",
+                "punch",
+                ")",
+                "->",
+                "d",
+                "+",
+                "kick"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Guren Kyoho",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "kick"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Yasha Gaeshi Tenchi",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Kanzuki-Ryu Hadorokushiki Hasha No Kata",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

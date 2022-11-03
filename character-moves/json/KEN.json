@@ -1,0 +1,217 @@
+{
+    "name": "KEN",
+    "moveList": [
+        {
+            "name": "Knee Bash",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hell Wheel",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Heat Rush",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Shinryuken",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK",
+                "(PROPERTIES CHANGE WITH REPEATED BUTTON PRESSES)"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Quick Step",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Ryusenkyaku",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Senpu Nataotoshi",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Shadow Thunder-Kick",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Thunder Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Inazuma Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Chin Buster",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Chin Buster 2nd",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Lion Breaker",
+            "type": "Unique Attacks",
+            "input": [
+                "MK",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hadoken",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Shoryuken",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tatsumaki Senpukyaku",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Airborne Tatsumaki Senpukyaku",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Shinryuken",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "(PROPERTIES CHANGE WITH REPEATED BUTTON PRESSES)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Guren Enjinkyaku",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        }
+    ]
+}

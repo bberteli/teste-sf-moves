@@ -1,0 +1,358 @@
+{
+    "name": "AKUMA",
+    "moveList": [
+        {
+            "name": "Goshoha",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shuretsuzan",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Dohatsu Shoten",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Shiretsu Hasshi",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Rakan",
+            "type": "V-SkillⅠ",
+            "input": [
+                "n",
+                "OR",
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rakan Gosho",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(DURING Rakan)",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rakan Gokyaku",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(DURING Rakan)",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kiai",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD TO DELAY)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Gosenkyaku",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Rasen Shuto Uchi",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Tenmakujinkyaku",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "d",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Zugaihasatsu",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tenha",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sekiseiken",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kongoken",
+            "type": "Unique Attacks",
+            "input": [
+                "HP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kikokurenzan",
+            "type": "Unique Attacks",
+            "input": [
+                "HK",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Gohadoken",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Sekia Goshoha",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Zanku Hadoken",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Goshoryuken",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Tatsumaki Zankukyaku",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Airborne Tatsumaki Zankukyaku",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Ashura Senku",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "OR",
+                "rdp",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hyakkishu",
+            "type": "Special Moves",
+            "input": [
+                "img-41236",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Hyakki Gozan",
+            "type": "Special Moves",
+            "input": [
+                "img-41236",
+                "+",
+                "kick",
+                "->",
+                "(NO INPUT)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hyakki Gosho",
+            "type": "Special Moves",
+            "input": [
+                "(DURING Hyakkishu)",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hyakki Gojin",
+            "type": "Special Moves",
+            "input": [
+                "(DURING Hyakkishu)",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hyakki Gosai",
+            "type": "Special Moves",
+            "input": [
+                "(DURING Hyakkishu)",
+                "(NEAR OPPONENT)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hyakki Gozanku",
+            "type": "Special Moves",
+            "input": [
+                "(DURING EX Hyakkishu)",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hyakki Gorasen",
+            "type": "Special Moves",
+            "input": [
+                "(DURING EX Hyakkishu)",
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Sekia Kuretsuha",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shun Goku Satsu",
+            "type": "Critical Art",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "LP",
+                "->",
+                "LP",
+                "->",
+                "f",
+                "->",
+                "LK",
+                "->",
+                "HP"
+            ],
+            "cost": "vtrigger1"
+        }
+    ]
+}

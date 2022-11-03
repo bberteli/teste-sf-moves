@@ -1,0 +1,247 @@
+{
+    "name": "NECALLI",
+    "moveList": [
+        {
+            "name": "Soul Sealer",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Discriminator",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Torrent of Power",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Eruption Of Power",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Culminated Power",
+            "type": "V-SkillⅠ",
+            "input": [
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "f",
+                "+",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Crawling Beast",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "The Calling",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Midnight Howl",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Opening Dagger",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Road of the Sun",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "d",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sacrificial Altar",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "MK",
+                "->",
+                "HK",
+                "->",
+                "n",
+                "OR",
+                "b",
+                "+",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Messenger Of Chaos",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "MK",
+                "->",
+                "HK",
+                "->",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "The Disc's Guidance",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Raging Light",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Mask of Tlalli",
+            "type": "Special Moves",
+            "input": [
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Valiant Rebellion",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER)"
+            ],
+            "cost": "vtrigger12"
+        },
+        {
+            "name": "Clouded Mirror",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Heart Of Gold",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Ceremony of Honor",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Soul Offering",
+            "type": "Critical Art",
+            "input": [
+                "(DURING V-TRIGGER)",
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger12"
+        }
+    ]
+}

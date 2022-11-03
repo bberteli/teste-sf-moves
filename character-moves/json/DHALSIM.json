@@ -1,0 +1,235 @@
+{
+    "name": "DHALSIM",
+    "moveList": [
+        {
+            "name": "Yoga Rocket",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoga Hoop",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoga Burner",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Yoga Sansara",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Yoga Float",
+            "type": "V-SkillⅠ",
+            "input": [
+                "n",
+                "OR",
+                "f",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoga Float (Airborne)",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(DURING JUMP)",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoga Deep Breath",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoga Mala",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Yoga Bazooka",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Drill Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "d",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoga Anvil",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoga Upper",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Divine Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Thrust Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "db",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoga Fire",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Yoga Flame",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Yoga Gale",
+            "type": "Special Moves",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Yoga Teleport",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "OR",
+                "rdp",
+                "+",
+                "LP",
+                "MP",
+                "HP",
+                "OR",
+                "LK",
+                "MK",
+                "HK",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoga Sansara",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Yoga Sunburst",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": ""
+        }
+    ]
+}

@@ -1,0 +1,324 @@
+{
+    "name": "ABIGAIL",
+    "moveList": [
+        {
+            "name": "Red Leaf",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hit & Run",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Max Power",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Hybrid Charge",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Hungabee High",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hungabee Low",
+            "type": "V-SkillⅠ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "C'mon Spare Tire",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Ontario Drop",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Abigail Junker",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Abi Hammer",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Abi Lift",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Abi Blaster",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Abi Scissor",
+            "type": "Unique Attacks",
+            "input": [
+                "db",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Vroom Vroom",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "LP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bang Bang",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "LP",
+                "->",
+                "d",
+                "+",
+                "LP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Abi Twist",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HP",
+                "->",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Abigail Punch",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE WITH REPEATED BUTTON PRESSES)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Giant Flip",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "punch",
+                "(EX VERSION: TAP BUTTON REPEATEDLY FOR ADDITIONAL HITS)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Abigail Smash",
+            "type": "Special Moves",
+            "input": [
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Nitro Charge",
+            "type": "Special Moves",
+            "input": [
+                "kick",
+                "kick",
+                "(HOLD TO DELAY)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Drop Back",
+            "type": "Special Moves",
+            "input": [
+                "kick",
+                "kick",
+                "(HOLD BUTTONS)",
+                "->",
+                "b"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Dynamite Punch",
+            "type": "Special Moves",
+            "input": [
+                "kick",
+                "kick",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Avalanche Press",
+            "type": "Special Moves",
+            "input": [
+                "kick",
+                "kick",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bay Area Sunrise",
+            "type": "Special Moves",
+            "input": [
+                "kick",
+                "kick",
+                "->",
+                "(NEAR OPPONENT)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Nitro Hungabee High",
+            "type": "Special Moves",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "kick",
+                "kick",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Nitro Hungabee Low",
+            "type": "Special Moves",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "kick",
+                "kick",
+                "->",
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Metro Crash",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Abigail Special",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+{
+    "name": "ALEX",
+    "moveList": [
+        {
+            "name": "Face-Crush Chop",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Leg Tomahawk",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rage Shift",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Rage Boost",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Overhaul",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Overchain",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Big Boot",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "War Hammer",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Chop",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Lariat",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flying Cross Chop",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "d",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flash Chop",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Slash Elbow",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Air Knee Smash",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Power Bomb",
+            "type": "Special Moves",
+            "input": [
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Power Drop",
+            "type": "Special Moves",
+            "input": [
+                "(ONLY TRIGGERS WITH \"HIGH\" FLASH CHOP OR SLEDGE HAMMER)",
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Air Stampede",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Head Crush",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Sledge Hammer",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Flyng DDT",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Choke Sleeper",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(WHEN CERTAIN ATTACKS HIT)",
+                "(NEAR OPPONENT)",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Heavy Hammer",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

@@ -1,0 +1,323 @@
+{
+    "name": "LUCIA",
+    "moveList": [
+        {
+            "name": "German Suplex",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Back-Carry Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Burning Fight",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Weapon Fury",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Tap-Kick",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Arrest Heel",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hammer Knuckle",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Peacekeeper",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Knee Slide",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Elbow Crush",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Quick Side-Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Spin Drive",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "LK",
+                "->",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Street-Style Set",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "LK",
+                "->",
+                "MK",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Carry Bonus",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "LK",
+                "->",
+                "MK",
+                "->",
+                "d",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Drop Target",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Gun Smoke",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Rough Chase",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tornado Spinner",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Cyclone Spinner",
+            "type": "Special Moves",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Nubbing Needle",
+            "type": "Special Moves",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Braking",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "->",
+                "b"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Firecracker",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Flipper Shot",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "->",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Fire Spinner",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hurricane Spinner",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tactical Weapon",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Hard Hit Knee",
+            "type": "Critical Art",
+            "input": [
+                "img-214",
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        }
+    ]
+}

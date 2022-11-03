@@ -1,0 +1,314 @@
+{
+    "name": "LAURA",
+    "moveList": [
+        {
+            "name": "Seoi Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Pullback Hold",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Spark Show",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Shock Stance",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Volty Line",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Linear Movement - Avante",
+            "type": "V-SkillⅠ",
+            "input": [
+                "f",
+                "+",
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Linear Movement - Esquiva",
+            "type": "V-SkillⅠ",
+            "input": [
+                "b",
+                "+",
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Linear Movement - Finta",
+            "type": "V-SkillⅠ",
+            "input": [
+                "b",
+                "+",
+                "MP",
+                "MK",
+                "->",
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Volty Sprink",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Thunder Spike",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Heavy Heel",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Double Slap",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Neutralize",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Step Elbow",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Twist Barrage",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Dual Crash",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bolt Charge",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Split River",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "MP",
+                "OR",
+                "punch",
+                "punch",
+                "->",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Rodeo Break",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "MP",
+                "OR",
+                "punch",
+                "punch",
+                "->",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Thunder Clap",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Sunset Wheel",
+            "type": "Special Moves",
+            "input": [
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Matsuda Sway",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Shock Choke (Follow-Up Ver.)",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "->",
+                "(",
+                "MP",
+                "MK",
+                ")",
+                "->",
+                "(NEAR OPPONENT)",
+                "HP",
+                "HK",
+                "(CHANGES  BY V-SKILL)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Shock Choke",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(NEAR OPPONENT)",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Inazuma Spin Hold",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        }
+    ]
+}

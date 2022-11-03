@@ -1,0 +1,283 @@
+{
+    "name": "KAGE",
+    "moveList": [
+        {
+            "name": "Shoulder Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Somersault Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Taigyaku Mudo",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Rikudo Osatsu",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Senha Kassatsu",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Sekieiken",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Senbugeki",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yashazuki",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Zugaihasatsu",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kikokuduki",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kikokuretsuzan",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sekiei Gozanken",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "f",
+                "+",
+                "HP",
+                "->",
+                "HK",
+                "->",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tenmakujinkyaku",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "d",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hadoken",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(HEAVY VERSION CHANGES DURING V-TRIGGERⅡ)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Airborne Hadoken",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Shakunetsu Hadoken",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Shoryuken",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Kurekijin",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Airborne Kurekijin",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Ryusokyaku",
+            "type": "Special Moves",
+            "input": [
+                "img-41236",
+                "+",
+                "kick",
+                "(HEAVY VERSION CHANGES DURING V-TRIGGERⅡ)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Ashura Senku",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "n",
+                "OR",
+                "b",
+                "+",
+                "HP",
+                "HK",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Misogi",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Metsu Shoryuken",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shun Goku Satsu",
+            "type": "Critical Art",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "LP",
+                "->",
+                "LP",
+                "->",
+                "f",
+                "->",
+                "LK",
+                "->",
+                "HP"
+            ],
+            "cost": "vtrigger2"
+        }
+    ]
+}

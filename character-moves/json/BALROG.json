@@ -1,0 +1,281 @@
+{
+    "name": "BALROG",
+    "moveList": [
+        {
+            "name": "Dirty Bomber",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Dirty Shot",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Crazy Rush",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "No Mercy",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "KKB",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "OR",
+                "(DURING A KKB-SUPPORTED MOVE)",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Buffalo Swing",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(DURING KKB)",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Buffalo Pressure",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(DURING KKB)",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "FFB",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Buffalo Headbutt",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Buffalo Breaker",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Hard Smasher",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "MK",
+                "->",
+                "MP",
+                "->",
+                "MP",
+                "MK",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hard Pressure",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "MK",
+                "->",
+                "MP",
+                "->",
+                "MP",
+                "MK",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "OTB",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "MK",
+                "->",
+                "MP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Under Impact",
+            "type": "Unique Attacks",
+            "input": [
+                "LK",
+                "->",
+                "MK",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Stomping Combo",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "MK",
+                "->",
+                "d",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Dash Straight",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)",
+                "(KKB-SUPPORTED)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Charging Buffalo",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I WITH SPECIAL MOVE)",
+                "f",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)",
+                "(KKB-SUPPORTED)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Dash Grand Blow",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "kick",
+                "(KKB-SUPPORTED)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Screw Smash",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Bursting Buffalo",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I WITH SPECIAL MOVE)",
+                "f",
+                "+",
+                "kick",
+                "(KKB-SUPPORTED)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Turn Punch",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "OR",
+                "kick",
+                "(HOLD ANY TWO BUTTONS AND RELEASE)",
+                "(KKB-SUPPORTED)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "B3",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(NEAR OPPONENT)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Gigaton Blow",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

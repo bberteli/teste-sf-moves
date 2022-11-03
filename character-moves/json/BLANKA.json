@@ -1,0 +1,293 @@
+{
+    "name": "BLANKA",
+    "moveList": [
+        {
+            "name": "Wild Fang",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Jungle Wheel",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Jungle Dynamo",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Lightning Beast",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Coward Crouch",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Wild Lift",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Raid Jump",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shout Of Earth",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(WHEN HOLDING THE BUTTON, PERFORM A STEP TO CANCEL)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Quick Rolling",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Anaconda's Maw",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Rock Crusher",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Amazon River Run",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Raging Bash",
+            "type": "Unique Attacks",
+            "input": [
+                "MK",
+                "->",
+                "HK",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Lightning Dance",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "MK",
+                "->",
+                "HK",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Surprise Forward",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK",
+                "OR",
+                "(DURING Coward Crouch)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Surprise Back",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "LK",
+                "MK",
+                "HK",
+                "OR",
+                "(DURING Coward Crouch)",
+                "b",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rolling Attack",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Back Step Rolling",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Vertical Rolling",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Wild Hunt",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Electric Thunder",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "(REPEAT BUTTON)",
+                "(RAPID PRESS FOR ADDITIONAL INPUTS)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Ground Shave Rolling",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Rolling Cannon",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(CONTROL Rolling Attack DIRECTION)",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Dynamic Rolling",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

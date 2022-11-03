@@ -1,0 +1,470 @@
+{
+    "name": "CODY",
+    "moveList": [
+        {
+            "name": "Trash Out",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Crime Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Secret Work",
+            "type": "Normal Throws",
+            "input": [
+                "(WHILE HOLDING PIPE)",
+                "(NEAR OPPONENT)",
+                "f",
+                "OR",
+                "n",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Side Arm",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Dirty Coach",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Double Kick",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Crime Sway (High)",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Wrench Fist",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Crime Sway (Low)",
+            "type": "V-SkillⅡ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Lumber Sweep",
+            "type": "V-SkillⅡ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Prison Breaker",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Payback",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Axel Knuckle",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Hammer Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bad Spray",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN RECOVERING IN PLACE)",
+                "u",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Slip Jab",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "LP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Crime Blow",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "LP",
+                "->",
+                "LP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Final Combination",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "LP",
+                "->",
+                "LP",
+                "->",
+                "LP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Final Combo Throw",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "LP",
+                "->",
+                "LP",
+                "->",
+                "d",
+                "+",
+                "LP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Air Raid Punch",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHILE EMPTY-HANDED)",
+                "(DURING JUMP)",
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Air Raid Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "MK",
+                "->",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Crack Combination",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "f",
+                "+",
+                "HK",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Crime Combination",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "f",
+                "+",
+                "HK",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Burst Shot",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(WHILE HOLDING KNIFE)",
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Zonk Knuckle",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "(HOLD AND RELEASE)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Tornado Sweep",
+            "type": "Special Moves",
+            "input": [
+                "(WHILE EMPTY-HANDED)",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Ruffian Kick",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Snipe Shot",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(WHILE HOLDING KNIFE)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Anti-Air Snipe Shot",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(WHILE HOLDING KNIFE)",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Reload",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(BEFORE GETTING KNIFE)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Rapid Fire",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(WHILE HOLDING KNIFE)",
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Gentle Swing",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(WHILE HOLDING PIPE)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Gentle Upper Swing",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(WHILE HOLDING PIPE)",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Bean Ball",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(WHILE HOLDING PIPE)",
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Present Delivery",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(WHILE HOLDING PIPE)",
+                "img-214",
+                "+",
+                "punch",
+                "->",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Unluck Gift",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(WHILE HOLDING PIPE)",
+                "img-214",
+                "+",
+                "punch",
+                "->",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Toss & Smash",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(WHILE HOLDING PIPE)",
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Garbage Chute",
+            "type": "Special Moves",
+            "input": [
+                "(WHILE HOLDING PIPE)",
+                "(AFTER V-TIMER DISAPPEARS)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Criminal Punisher",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

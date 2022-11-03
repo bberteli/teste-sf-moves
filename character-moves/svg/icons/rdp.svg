@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 126 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="Directionals" transform="matrix(0.965774,0,0,0.929204,-8.38993,-6.2784)">
+        <rect x="8.687" y="6.757" width="129.73" height="130.888" style="fill:none;"/>
+        <g transform="matrix(-1.51925,0,0,1.57904,414.192,5.61389)">
+            <g id="Directionals1" serif:id="Directionals">
+                <g id="rdp">
+                    <g transform="matrix(2.01118,0,0,2.01118,-932.309,-201.553)">
+                        <circle cx="575" cy="121" r="15.374" style="fill:rgb(215,21,24);"/>
+                    </g>
+                    <g transform="matrix(0.826525,0,0,0.826525,38.7052,6.68774)">
+                        <path d="M223.22,79.103C223.22,79.103 255.962,79.114 256.236,79.117L256.236,84.112L270.443,74.181L256.236,65.461L256.236,70.45C256.078,70.448 244.161,70.446 241.041,70.446C240.57,70.446 240.3,70.446 240.3,70.446L264.236,38.556L223.117,38.552L223.22,47.209L246.796,47.218L223.22,79.103Z" style="fill:white;stroke:black;stroke-width:1.56px;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,265 @@
+{
+    "name": "M. BISON",
+    "moveList": [
+        {
+            "name": "Psycho Impact",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Fall",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Power",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Psycho Nightmare",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Psycho Reflect",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(PROPERTIES VARY ACCORDING TO THE ATTACK ABSORBED)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Punishment",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(AFTER Psycho Reflect)",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hell's Warp",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Burst",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Psycho Fist",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Hell Attack",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "MP",
+                "->",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Axe",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shadow Axe",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "df",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shadow Pressure",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "MP",
+                "->",
+                "df",
+                "+",
+                "HP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Blast",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Double Knee Press",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Head Press",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Somersault Skull Diver",
+            "type": "Special Moves",
+            "input": [
+                "(AFTER HEAD PRESS HITS)",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Devil Reverse",
+            "type": "Special Moves",
+            "input": [
+                "(BEFORE HEAD PRESS HITS)",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Psycho Inferno",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Psycho Charge",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(NEAR OPPONENT)",
+                "hcb",
+                "+",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Psycho Judgement",
+            "type": "Special Moves",
+            "input": [
+                "(AFTER Psycho Charge HITS)",
+                "hcb",
+                "+",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Psycho Crusher",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Ultimate Psycho Crusher",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch",
+                "(CAN BE DONE IN AIR)"
+            ],
+            "cost": ""
+        }
+    ]
+}

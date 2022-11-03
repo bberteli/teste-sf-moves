@@ -1,0 +1,250 @@
+{
+    "name": "SAKURA",
+    "moveList": [
+        {
+            "name": "Hanakaze",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sakura Shoulder Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sailor Hop",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Haru Arashi",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Sakura Senpu",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Haru Kaze",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sakura Otoshi",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "punch",
+                "(INPUT POSSIBLE UP TO 3 TIMES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Oukakyaku",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kashinfu",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "(NEAR OPPONENT)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Haru Hayate",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Floral Spin",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Floral Side-Kick",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Floral Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Furiko Upper",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Chin Buster Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hadoken",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tengyo Hadoken",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Shouoken",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Shunpukyaku",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Airborne Shunpukyaku",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Hogasho",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Sakura Rain",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "vtrigger1"
+        }
+    ]
+}

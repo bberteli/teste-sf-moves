@@ -1,0 +1,388 @@
+{
+    "name": "SETH",
+    "moveList": [
+        {
+            "name": "Death Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tanden Ignition",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Tanden Maneuver",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK",
+                "->",
+                "(ANY DIRECTION)",
+                "punch"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Tanden Engine",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tanden Install",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Install Art",
+            "type": "V-SkillⅠ",
+            "input": [
+                "(AFTER HITTING Tanden Install)",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tanden Booster",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hecatoncheires Glide",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Mad Spiral",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "dp",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Spin Pendulum",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tanden Booster (Stop)",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Calamity Shutter",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Hell's Punishment",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Step Shoot",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hazard Blow",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Head Hunter",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Turning Slicer",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Twin Claw",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tanden Combination",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "MP",
+                "->",
+                "HP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shoot Slicer",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Fatal Rush",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP",
+                "->",
+                "HK",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hecatoncheires",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Mad Cradle",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Cruel Distaster",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Annihilate Sword",
+            "type": "Special Moves",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Titanomachy",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(Hecatoncheires OR Hecatoncheires Glide)",
+                "->",
+                "HP",
+                "HK",
+                "(CAN BE PERFORMED FROM APPLICABLE INSTALL)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Mad Spin",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(Mad Cradle OR Mad Spiral)",
+                "->",
+                "HP",
+                "HK",
+                "(CAN BE PERFORMED FROM APPLICABLE INSTALL)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Cyclone Disaster",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(Cruel Disaster OR Spin Pendulum)",
+                "->",
+                "HP",
+                "HK",
+                "(CAN BE PERFORMED FROM APPLICABLE INSTALL)"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Hell's Gate",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "img-214",
+                "+",
+                "kick",
+                "->",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Tanden Maneuver (Additional Control)",
+            "type": "Special Moves",
+            "input": [
+                "(DURING Tanden Maneuver)",
+                "(ANY DIRECTION)",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Tanden Explode",
+            "type": "Special Moves",
+            "input": [
+                "(DURING Tanden Maneuver)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Tanden Destruction",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tanden Extreme",
+            "type": "Critical Art",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        }
+    ]
+}

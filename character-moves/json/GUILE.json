@@ -1,0 +1,350 @@
+{
+    "name": "GUILE",
+    "moveList": [
+        {
+            "name": "Dragon Suplex",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Judo Throw",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flying Mare",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flying Buster Chop",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Solid Puncher",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Knife Edge",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Sonic Blade",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Dive Sonic",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Reverse Back Knuckle",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Ambush Kick",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Guile High Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Knee Bazooka",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "OR",
+                "f",
+                "+",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rolling Sobat",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "OR",
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Spinning Back Knuckle",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Reverse Spin Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Burn Straight",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Full Bullet Magnum",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tall Edge",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "LK",
+                "->",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bullet Revolver",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "LK",
+                "->",
+                "MP",
+                "->",
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Swing Out",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Drake Fang",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "MK",
+                "->",
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Taurus Combination",
+            "type": "Unique Attacks",
+            "input": [
+                "LK",
+                "->",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Faultless Move",
+            "type": "Unique Attacks",
+            "input": [
+                "df"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sonic Boom",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER I)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Somersault Kick",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Sonic Cross",
+            "type": "Special Moves",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "MP",
+                "MK",
+                "->",
+                "img-c4",
+                "f",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Sonic Break",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "f",
+                "+",
+                "HP",
+                "HK",
+                "OR",
+                "(DURING A SONIC BOOM OR SONIC BREAK)",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Sonic Hurricane",
+            "type": "Critical Art",
+            "input": [
+                "img-c4",
+                "f",
+                "b",
+                "f",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sonic Tempest",
+            "type": "Critical Art",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "img-c4",
+                "f",
+                "b",
+                "f",
+                "+",
+                "punch"
+            ],
+            "cost": "vtrigger1"
+        }
+    ]
+}

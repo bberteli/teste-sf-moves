@@ -1,0 +1,362 @@
+{
+    "name": "KOLIN",
+    "moveList": [
+        {
+            "name": "Pressure Ridge",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sublimation",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Avalance Rock",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Diamond Dust",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Absolute Zero",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Inside Slash",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Glacier Throw",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Third Eye",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Cold Snap",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Blizzard Heel",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Isicle Stamp",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "d",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sniping Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Frost Spike",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP",
+                "->",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "White Out",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "MK",
+                "->",
+                "HP",
+                "->",
+                "MP",
+                "MK",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "White Pressure",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "MK",
+                "->",
+                "HP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Cold Low",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING M Vanity Step)",
+                "d",
+                "+",
+                "LK",
+                "->",
+                "d",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Brinicle",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING M Vanity Step)",
+                "d",
+                "+",
+                "LK",
+                "->",
+                "d",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Snow Grain",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING M Vanity Step)",
+                "d",
+                "+",
+                "MP",
+                "->",
+                "HP",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "White Spear",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING H Vanity Step)",
+                "LK",
+                "->",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Frost Touch - Low",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "LP"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Frost Touch - Mid",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "MP"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Frost Touch - High",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "HP"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Parabellum",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "OR",
+                "punch",
+                "(REPEAT BUTTON)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Vanity Step",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Silver Edge",
+            "type": "Special Moves",
+            "input": [
+                "(DURING L Vanity Step)",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Glacier Throw",
+            "type": "Special Moves",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "(DURING L Vanity Step)",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hailstorm",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE DURING V-TRIGGER II)"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Diamond Dust",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Frost Edge",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Reverse Javelin",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(DURING DASH)",
+                "OR",
+                "(DURING M Vanity Step)",
+                "HP",
+                "HK",
+                "->",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Frost Tower",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

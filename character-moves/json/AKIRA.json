@@ -1,0 +1,349 @@
+{
+    "name": "AKIRA",
+    "moveList": [
+        {
+            "name": "Shin'Iha",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yoshisenrin",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kurakusho",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Otoko no Senaka",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Haten no Kamae",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Kiko Rensei",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tsutenda",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Gutsy Counter",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Genkorichu",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Kaihosho",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kutenshu",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Totenshu",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shintenshu",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "(DURING JUMP AFTER Tsutenda HITS)",
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Ressenda",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tsuten Rengeki",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "LP",
+                "->",
+                "MP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Renkan Ko",
+            "type": "Unique Attacks",
+            "input": [
+                "HP",
+                "->",
+                "f",
+                "+",
+                "HP",
+                "->",
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Renkan Renkiko",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "HP",
+                "->",
+                "f",
+                "+",
+                "HP",
+                "->",
+                "f",
+                "+",
+                "HP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Renkan Tsutenda",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "HP",
+                "->",
+                "f",
+                "+",
+                "HP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kiko Kai",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE AFTER V-SKILL I)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Airborne Kiko Kai",
+            "type": "Special Moves",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "qcf",
+                "+",
+                "punch",
+                "(PROPERTIES CHANGE AFTER V-SKILL I)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Urarimon",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Hotenshu",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Senshubu",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick",
+                "->",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Haten no Kamae",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Ha no Sogeki",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(DURING Haten no Kamae)",
+                "punch",
+                "->",
+                "punch",
+                "->",
+                "punch"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Ha no Renbu",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(DURING Haten no Kamae)",
+                "kick",
+                "->",
+                "punch",
+                "->",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Ten no Renbu",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(DURING Haten no Kamae)",
+                "b",
+                "+",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Kamae Cancel",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "(DURING Haten no Kamae)",
+                "d"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Kyoso Kiko Kai",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

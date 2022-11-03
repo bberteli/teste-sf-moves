@@ -1,0 +1,379 @@
+{
+    "name": "NASH",
+    "moveList": [
+        {
+            "name": "Dragon Suplex",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Target Down",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Air Jack",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sonic Move - Hide",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Sonic Move - Blitz Air",
+            "type": "V-Trigger I",
+            "input": [
+                "b",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Sonic Move - Steel Air",
+            "type": "V-Trigger I",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Stealth Dash",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Bullet Clear",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Silent Sharpness",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sonic Move - Avoid",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Vengeful Bullet",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Knee Bazooka",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Jumping Sobat",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Chopping Assault",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Step Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Spinning Back Knuckle",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Side Knee Attack",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rainfall",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING VERTICAL JUMP)",
+                "u",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rapid Punch",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rapid Kick",
+            "type": "Unique Attacks",
+            "input": [
+                "LK",
+                "->",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Gust Front",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "LK",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Wind Shear",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "LK",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Down Burst",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "->",
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Raptor Combination",
+            "type": "Unique Attacks",
+            "input": [
+                "MK",
+                "->",
+                "HK",
+                "->",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bullet Combination",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "MK",
+                "->",
+                "HK",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sonic Boom",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch",
+                "(ADDITIONAL INPUT WITH EX)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Sonic Scythe",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick",
+                "(PROPERTIES CHANGE AFTER V-SKILL II)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Moonsault Slash",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Tragedy Assault",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Stealth Dash",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Stealth Dash (Stop)",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "->",
+                "b"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Justice Corridor",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "->",
+                "punch"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Justice Shell",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK",
+                "->",
+                "kick"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Judgement Saber",
+            "type": "Critical Art",
+            "input": [
+                "img-214",
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

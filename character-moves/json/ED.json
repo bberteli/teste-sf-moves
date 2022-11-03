@@ -1,0 +1,233 @@
+{
+    "name": "ED",
+    "moveList": [
+        {
+            "name": "Psycho Blow",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Cheat & Smash",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Cannon",
+            "type": "V-Trigger I",
+            "input": [
+                "n",
+                "OR",
+                "f",
+                "+",
+                "HP",
+                "HK",
+                "(FLIGHT SPEED CHANGES BASED ON DIRECTIONAL KEY INPUT)"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Enhanced Snatcher",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Psycho Snatcher - Ground",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Snatcher - Air",
+            "type": "V-SkillⅠ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Swing",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Smash",
+            "type": "V-SkillⅡ",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kill Step",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Psycho Split",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Psycho Spark",
+            "type": "Special Moves",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Shoot",
+            "type": "Special Moves",
+            "input": [
+                "(DURING Psycho Spark)",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Psycho Knuckle",
+            "type": "Special Moves",
+            "input": [
+                "HP",
+                "(HOLD BUTTONS)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Upper",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "punch",
+                "(TOGETHER)"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Psycho Flicker",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "(REPEAT BUTTON)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "EX Psycho Knuckle",
+            "type": "Special Moves",
+            "input": [
+                "(AFTER Psycho Fricker HITS)",
+                "punch",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Psycho Rising",
+            "type": "Special Moves",
+            "input": [
+                "kick",
+                "kick",
+                "(TOGETHER)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Psycho Splash",
+            "type": "Special Moves",
+            "input": [
+                "(AFTER Psycho Rising HITS)",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Ultra Snatcher - Ground",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Ultra Snatcher - Air",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Psycho Barrage",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

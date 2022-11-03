@@ -1,0 +1,425 @@
+{
+    "name": "IBUKI",
+    "moveList": [
+        {
+            "name": "Yamikazura",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kubiori",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tobizaru",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Rokushaku Horokudama (Akebono)",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Rokushaku Horokudama (Hizakari)",
+            "type": "V-Trigger I",
+            "input": [
+                "b",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Rokushaku Horokudama (Tasogare)",
+            "type": "V-Trigger I",
+            "input": [
+                "u",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Rokushaku Horokudama (Reimei)",
+            "type": "V-Trigger I",
+            "input": [
+                "f",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Fuma Shuriken (Haku)",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Fuma Shuriken (Kokufu)",
+            "type": "V-Trigger II",
+            "input": [
+                "b",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Tenrai",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(HOLD BUTTONS TO CHANGE PROPERTIES)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Makibishi",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "(",
+                "punch",
+                ")"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hanagasumi",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Chizuri Hayabusa",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Agemen",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kobekudaki",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sazan",
+            "type": "Unique Attacks",
+            "input": [
+                "df",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bonshogeri",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Nobusuma",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "kick",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shinten",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP",
+                "->",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Yagurakuzushi",
+            "type": "Unique Attacks",
+            "input": [
+                "LP",
+                "->",
+                "MP",
+                "->",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Gogasha",
+            "type": "Unique Attacks",
+            "input": [
+                "MK",
+                "->",
+                "d",
+                "+",
+                "HK",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Shakunage",
+            "type": "Unique Attacks",
+            "input": [
+                "d",
+                "+",
+                "MP",
+                "->",
+                "f",
+                "+",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sasanaki",
+            "type": "Unique Attacks",
+            "input": [
+                "MP",
+                "->",
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tobikura",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "LP",
+                "->",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Aoji",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "HP",
+                "->",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kasumigake",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Kazekiri",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Raida",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Kunai",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Airborne Kunai",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Kunai Ikkinage",
+            "type": "Special Moves",
+            "input": [
+                "punch",
+                "(HOLD AND RELEASE)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Airborne Kunai Ikkinage",
+            "type": "Special Moves",
+            "input": [
+                "(DURING JUMP)",
+                "kick",
+                "(HOLD AND RELEASE)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kunai Hoju",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Rokushaku Horokudama(Akebono)",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Rokushaku Horokudama(Hizakari)",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "b",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Rokushaku Horokudama(Tasogare)",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "u",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Rokushaku Horokudama (Reimei)",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "f",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Kachofugetsu",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": ""
+        }
+    ]
+}

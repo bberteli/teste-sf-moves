@@ -1,0 +1,357 @@
+{
+    "name": "ORO",
+    "moveList": [
+        {
+            "name": "Yashi Kudaki",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tomoe Nage",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kuchu Jigoku Guruma",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Manrikitan",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Tengu Stone",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Tengu Midare Stone",
+            "type": "V-Trigger II",
+            "input": [
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v3"
+        },
+        {
+            "name": "Onibi",
+            "type": "V-SkillⅠ",
+            "input": [
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Minomushi",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Kaki Otoshi",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Eda Uchi",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Ashi Barai",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Okabuto Wari",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Kaeshi Genkotsu",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tobi Hiza",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Hane Jodan Mawashi",
+            "type": "Unique Attacks",
+            "input": [
+                "b",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Tsurane Uchiage",
+            "type": "Unique Attacks",
+            "input": [
+                "MK",
+                "->",
+                "MP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Oi Onibi",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "MK",
+                "->",
+                "MP",
+                "->",
+                "n",
+                "OR",
+                "b",
+                "OR",
+                "d",
+                "+",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Oi Minomushi",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "MK",
+                "->",
+                "MP",
+                "->",
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Oi Kaki Otoshi",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "MK",
+                "->",
+                "MP",
+                "->",
+                "MP",
+                "MK",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Oi Eda Uchi",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL II)",
+                "MK",
+                "->",
+                "MP",
+                "->",
+                "MP",
+                "MK",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Double Jump",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP)",
+                "u",
+                "OR",
+                "ub",
+                "OR",
+                "uf"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Nichirin Sho",
+            "type": "Special Moves",
+            "input": [
+                "img-c4",
+                "f",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Oni Yanma",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Nioh Riki",
+            "type": "Special Moves",
+            "input": [
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Jinchu Watari",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Jinchu Nobori",
+            "type": "Special Moves",
+            "input": [
+                "(DURING FORWARD JUMP)",
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Tsuranekeashi",
+            "type": "Special Moves",
+            "input": [
+                "img-214",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Kishinriki",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(NEAR OPPONENT)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Kishin Kuchu Jigoku Guruma",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER I)",
+                "(CLOSE TO OPPONENT IN AIR)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger1"
+        },
+        {
+            "name": "Daishinsenriki",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}

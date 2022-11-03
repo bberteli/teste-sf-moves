@@ -1,0 +1,173 @@
+/* @import url('https://fonts.googleapis.com/css3?family=Lato:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.header {
+    margin: 0.9rem 0.75rem 0.75rem 0.9rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: white;
+}
+
+p.title {
+    font-size: 1.4rem;
+}
+
+a.back {
+    padding: 0 0.3rem 0 0.3rem;
+    flex: 0 0 3.12rem;
+    align-self: flex-start;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    display: inline;
+    cursor: pointer;
+    
+}
+
+a:hover,
+a.back:hover {
+    color: rgb(120,120,120);
+}
+
+.search {
+    margin: 0 0.75rem 0.6rem 0.75rem;
+    border-radius: 0.38rem;
+    background-color:rgb(27, 27, 27);
+    color:rgb(171, 171, 171);
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    padding: 0.38rem 0.6rem 0.38rem 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-text {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding-top: 0.2rem;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 0%;
+    cursor: pointer;
+}
+
+.search-text::placeholder {
+    color: rgb(75, 75, 75);
+}
+
+.cancel-button {
+    cursor: pointer;
+}
+
+.cancel-button img {
+    height: 1.0rem;
+}
+
+#char-box {
+    height: 10rem;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 00%,
+    rgba(41,41,41,1) 130%);
+    border-radius: 0.38rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    min-width: 21.25rem ;
+}
+
+#title-card {
+    height: 10rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0.38rem;
+    background-image: url('/img/characters/large/mnt.png');
+    margin: 0;
+}
+
+#title-card .char-spacing {
+    width: 7.8rem
+}
+
+#title-card .char-text-spacing {
+    width: 12.5rem
+}
+
+p.character-text, p.modes {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 4rem 0 0 0;
+}
+
+p.character-text {
+    font-weight: 700;
+}
+
+p.modes {
+    font-size: 1rem;
+    padding: 0;
+}
+
+div.table-container {
+    margin-left: 0.75rem;                
+    margin-right: 0.75rem;
+}
+
+table.moves {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1.25rem;   
+    width: 100%;
+}
+
+table.moves > tbody > tr th {
+    padding: 0.6rem 0 0.6rem 0.6rem;
+    background-color: rgb(39, 39, 39);
+    font-weight: 700;
+}
+
+table.moves > tbody > tr td {
+    padding: 0.6rem 0px 0.6rem 0.6rem;
+    vertical-align: middle;
+}
+
+table.moves > tbody > tr > td > span p {
+    display: block;
+    line-height: 1.3rem;
+}
+
+
+.move-icon {
+    height: 1.9rem;
+    vertical-align: middle;
+}
+
+.movetype-icon {
+    height: 1.3rem;
+    vertical-align: middle;
+}
+
+span.move-text {
+    display: inline;
+    line-height: 1.55rem;
+}
+
+span.move-name {
+    line-height: 2.2rem;
+}

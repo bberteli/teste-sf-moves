@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="cancel-search.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-others="false"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="false"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:zoom="3.5166667"
+     inkscape:cx="82.180095"
+     inkscape:cy="69.810427"
+     inkscape:window-width="1872"
+     inkscape:window-height="1016"
+     inkscape:window-x="48"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="0.82170105,59.58876"
+       orientation="0,-1"
+       id="guide293" />
+    <sodipodi:guide
+       position="60.132103,118.89916"
+       orientation="1,0"
+       id="guide295" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path31"
+       style="fill:#4d4d4d;fill-rule:evenodd;stroke-width:1.10025"
+       d="M 60.132812 1.1015625 A 59.310402 59.310402 0 0 0 0.82226562 60.412109 A 59.310402 59.310402 0 0 0 60.132812 119.7207 A 59.310402 59.310402 0 0 0 119.44336 60.412109 A 59.310402 59.310402 0 0 0 60.132812 1.1015625 z M 36.712891 29.841797 L 60.132812 53.259766 L 83.550781 29.841797 L 90.703125 36.992188 L 67.283203 60.410156 L 90.703125 83.830078 L 83.550781 90.980469 L 60.132812 67.5625 L 36.712891 90.980469 L 29.5625 83.830078 L 52.982422 60.410156 L 29.5625 36.992188 L 36.712891 29.841797 z " />
+  </g>
+</svg>

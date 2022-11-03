@@ -1,0 +1,406 @@
+{
+    "name": "VEGA",
+    "moveList": [
+        {
+            "name": "Rainbow Suplex",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "n",
+                "OR",
+                "f",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Crescent Line",
+            "type": "Normal Throws",
+            "input": [
+                "(NEAR OPPONENT)",
+                "b",
+                "+",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Stardust Shot",
+            "type": "Normal Throws",
+            "input": [
+                "(CLOSE TO OPPONENT IN AIR)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bloody Kiss - Torero",
+            "type": "V-Trigger I",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Bloody Kiss - Rojo",
+            "type": "V-Trigger I",
+            "input": [
+                "d",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Bloody Kiss - Azul",
+            "type": "V-Trigger I",
+            "input": [
+                "(DURING VERTICAL OR FORWARD JUMP)",
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Alegrias",
+            "type": "V-Trigger II",
+            "input": [
+                "HP",
+                "HK"
+            ],
+            "cost": "v2"
+        },
+        {
+            "name": "Matador Turn",
+            "type": "V-SkillⅠ",
+            "input": [
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Matador Flip",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Cosmic Smart",
+            "type": "V-SkillⅡ",
+            "input": [
+                "MP",
+                "MK",
+                "->",
+                "kick"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Backslash",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LP",
+                "MP",
+                "HP"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Short Backslash",
+            "type": "V-Reversal",
+            "input": [
+                "(DURING GUARD)",
+                "f",
+                "+",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Beautiful Severance",
+            "type": "V-Shift",
+            "input": [
+                "HP",
+                "MK",
+                "->",
+                "(AFTER EVADING WITH V-SHIFT)",
+                "HP",
+                "MK"
+            ],
+            "cost": "v"
+        },
+        {
+            "name": "Mercury Shard",
+            "type": "Unique Attacks",
+            "input": [
+                "f",
+                "+",
+                "MK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Buster Claw",
+            "type": "Unique Attacks",
+            "input": [
+                "(CLAW ON ONLY)",
+                "f",
+                "+",
+                "HP"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Matador Flash",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "(CLAW ON ONLY)",
+                "HP",
+                "->",
+                "HP",
+                "->",
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Matador Blitz",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN SELECTING VSKILL I)",
+                "(CLAW OFF ONLY)",
+                "MP",
+                "->",
+                "HK",
+                "->",
+                "MP",
+                "MK",
+                "(ATTACK TRIGGERED WITH BUTTON HOLD)"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Wall Jump",
+            "type": "Unique Attacks",
+            "input": [
+                "(DURING JUMP NEAR WALL)",
+                "f"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Face Reveal",
+            "type": "Unique Attacks",
+            "input": [
+                "(WHEN WEARING A MASK)",
+                "d",
+                "+",
+                "LP",
+                "MP",
+                "HP",
+                "LK",
+                "MK",
+                "HK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flying Barcelona",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "OR",
+                "rdp",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Flying Barcelona Attack",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "OR",
+                "rdp",
+                "+",
+                "kick",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Izuna Drop",
+            "type": "Special Moves",
+            "input": [
+                "dp",
+                "OR",
+                "rdp",
+                "+",
+                "kick",
+                "->",
+                "(NEAR OPPONENT)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Grand Izuna Drop",
+            "type": "Special Moves",
+            "input": [
+                "(NEAR OPPONENT)",
+                "(CLAW OFF ONLY)",
+                "hcb",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Crimson Terror",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Aurora Spin Edge",
+            "type": "Special Moves",
+            "input": [
+                "(CLAW ON ONLY)",
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Switch Claw",
+            "type": "Special Moves",
+            "input": [
+                "qcf",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Sky High Claw",
+            "type": "Special Moves",
+            "input": [
+                "img-c2",
+                "u",
+                "+",
+                "punch",
+                "punch"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Bloody Garden",
+            "type": "Special Moves",
+            "input": [
+                "EX Only",
+                "(Flamenco Tavern only)",
+                "img-c2",
+                "u",
+                "+",
+                "kick",
+                "kick"
+            ],
+            "cost": "ex"
+        },
+        {
+            "name": "Bloody Garden Attack",
+            "type": "Special Moves",
+            "input": [
+                "(Flamenco Tavern only)",
+                "img-c2",
+                "u",
+                "+",
+                "kick",
+                "kick",
+                "->",
+                "punch"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Bloody Garden Drop",
+            "type": "Special Moves",
+            "input": [
+                "(Flamenco Tavern only)",
+                "img-c2",
+                "u",
+                "+",
+                "kick",
+                "kick",
+                "->",
+                "(NEAR OPPONENT)",
+                "LP",
+                "LK"
+            ],
+            "cost": ""
+        },
+        {
+            "name": "Flash Arch - Rossa",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Flash Arch - Granate",
+            "type": "Special Moves",
+            "input": [
+                "(DURING V-TRIGGER II)",
+                "f",
+                "+",
+                "HP",
+                "HK"
+            ],
+            "cost": "vtrigger2"
+        },
+        {
+            "name": "Bloody Rain",
+            "type": "Critical Art",
+            "input": [
+                "qcf",
+                "qcf",
+                "OR",
+                "img-214",
+                "img-214",
+                "+",
+                "punch"
+            ],
+            "cost": ""
+        }
+    ]
+}
