@@ -25,5 +25,5 @@ Promise.all(charPromFileArr)
     .then(buildPage);
         
 function buildPage(charJsonArray) {
-    console.log(charJsonArray[1].name)   
+
 }
