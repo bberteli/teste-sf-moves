@@ -42,7 +42,7 @@ function buildPage(charJsonArray) {
                 Object.assign(
                     document.createElement('a'),
                     {
-                        href: "./sfv_moves_abigail.html"       
+                        href: "sf-movelist.html?char="+charName
                     }
             )).appendChild(
                 Object.assign(

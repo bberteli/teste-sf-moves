@@ -19,8 +19,82 @@ body {
     color: white;
 }
 
+.header {
+    margin: 0.9rem 0.75rem 0.75rem 0.9rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: white;
+    display: flex;
+} 
+
+#ml-header {
+    text-align: center;
+    justify-content: flex-end;
+}
+
+a.back {
+    padding: 0 0.3rem 0 0.3rem;
+    flex: 0 0 3.12rem;
+    align-self: flex-start;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    display: inline;
+    cursor: pointer;
+        
+}
+
+a:hover,
+a.back:hover {
+    color: rgb(120,120,120);
+}
+
+#ml-title {
+    flex: 1;
+    align-self: flex-end;
+    padding-right: 55px;
+}
+
 p.title {
     font-size: 1.4rem;
+}
+
+#char-box {
+    height: 10rem;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 00%,
+    rgba(41,41,41,1) 130%);
+    border-radius: 0.38rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    min-width: 21.25rem ;
+}
+
+#title-card {
+    height: 10rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0.38rem;
+    background-image: url('../img/characters/large/menat.png');
+    margin: 0;
+}
+
+#title-card .char-spacing {
+    width: 7.8rem
+}
+
+#title-card .char-text-spacing {
+    width: 12.5rem
+}
+
+p.character-text, p.modes {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 4rem 0 0 0;
 }
 
 
@@ -64,31 +138,6 @@ p.title {
 
 .cancel-button img {
     height: 1.0rem;
-}
-
-div#char-box {
-    height: 10rem;
-    border-radius: 0.38rem;
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-    min-width: 21.25rem ;
-}
-
-#title-card {
-    height: 10rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 0.38rem;
-    background-image: url('/img/characters/large/mnt.png');
-    margin: 0;
-}
-
-#title-card .char-spacing {
-    width: 7.8rem
-}
-
-#title-card .char-text-spacing {
-    width: 12.5rem
 }
 
 p.character-text, p.modes {

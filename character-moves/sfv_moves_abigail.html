@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 </head>
 <body>
-<h1>Ass</h1>
+<h1 id="name">Ass</h1>
 </body>
+    <script>
+        const charName = new URLSearchParams(window.location.search);
+        document.getElementById('name').innerText = charName.get('char');
+    </script>
 </html>
